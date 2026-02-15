@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>あなたのＨＰタイトル</title>
-<meta name="keywords" content="ページのキーワードA,B,C">
-<meta name="description" content="ページの説明">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Minimalist Noir</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Syncopate:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="outer">
-<header><div id="header-container"><div id="head-inner"><h1>あなたのＨＰタイトル</h1>
-<p class="description">あなたのＨＰの説明文</p></div></div>
-</header>
-<div id="content-wrapper">
-<main>
-<div id="inner">
-<h2>記事ページ見出し・大</h2>
-<p>文章あれこれ</p>
-<h3>記事ページ見出し・中</h3>
-<p>文章あれこれ</p>
-<h4>記事ページ見出し・小</h4>
-<p>文章あれこれ</p>
-</div>
-</main>
-<aside>
-<div id="middle-inner">
-<div class="side-title">menu</div>
-<div class="side">
-<ul>
-<li>記事ページへのリンク</li>
-<li>記事ページへのリンク</li>
-</ul>
-</div>
-</div>
-</aside>
-</div>
-<footer>© 2010 あなたのホームページ</footer>
-</div></body>
+
+    <nav>
+        <div class="logo">CREATIVE.</div>
+        <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="hero-content">
+            <h1 class="fade-in">DESIGNER & <br>DEVELOPER</h1>
+            <p class="subtitle fade-in">Crafting digital experiences with precision and passion.</p>
+        </div>
+        <div class="scroll-indicator"></div>
+    </header>
+
+    <section id="work">
+        <h2 class="section-title">SELECTED WORKS</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-info">
+                    <span>Branding</span>
+                    <h3>Project Alpha</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-info">
+                    <span>UI/UX Design</span>
+                    <h3>Project Beta</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>GET IN TOUCH</p>
+        <a href="mailto:hello@example.com" class="email-link">hello@example.com</a>
+        <div class="socials">
+            <a href="#">X (Twitter)</a>
+            <a href="#">Instagram</a>
+            <a href="#">GitHub</a>
+        </div>
+    </footer>
+
+</body>
 </html>
